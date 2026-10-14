@@ -2,7 +2,7 @@
 
 ## Tareas por orden
 
-
+## Tarea 1
 - 1 
 "Una institución educativa necesita llevar un registro de los usuarios
   que utilizan sus sistemas informáticos"
@@ -43,3 +43,29 @@ opcion 1.
   Dentro de datos deberá existir un archivo denominado:
     usuarios.txt
   El script deberá verificar si los directorios y archivos ya existen antes de crearlos.
+
+## Tarea 2
+
+opcion 2 - Agregar usuario
+  El sistema deberá solicitar al usuario los datos necesarios y almacenarlos en usuarios.txt.
+  Ejemplo:
+
+   	Ingrese nombre de usuario: mia01
+  	Ingrese nombre y apellido: Mia Perez
+	Ingrese edad: 18
+	Ingrese carrera: Informatica
+	Ingrese horas de uso: 15
+	Ingrese estado (ACTIVO/INACTIVO): ACTIVO
+
+  read -p "Ingrese su nombre: " nombre
+
+
+ Los datos deberán almacenarse utilizando un formato definido por los alumnos que realizen la tarea
+ Por ejemplo:
+	mia01|Mia Perez|18|Informatica|15|ACTIVO
+	maria02|Maria Gomez|25|Administracion|8|ACTIVO
+	pedro03|Pedro Lopez|19|Informatica|2|INACTIVO
+
+  usuarios.txt
+
+  echo "$Usuario|$Nombre|$Edad|$Carrera|$HorasUso|$Estado" >> usuarios.txt
