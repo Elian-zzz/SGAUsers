@@ -26,7 +26,15 @@ read -p "Ingrese una opcion [1 - 8]: " op
 
 case $op in
 1)
-    
+    mkdir -p datos reportes logs
+
+ARCHIVO_USUARIO=./datos/usuarios.txt
+
+if [ ! -f $ARCHIVO_USUARIO ] 
+then
+touch $ARCHIVO_USUARIO
+
+fi
 ;;
 
 2)
