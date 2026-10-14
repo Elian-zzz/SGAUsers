@@ -4,7 +4,6 @@ ARCHIVO=./datos/usuarios.txt
 
 if [ ! -f $ARCHIVO ] 
 then
-
 touch $ARCHIVO
 
 fi
