@@ -48,6 +48,7 @@ read -p "Ingrese estado (ACTIVO/INACTIVO): " estado
 
 
 echo "$usuario:$nombre_completo:$edad:$carrera:$horas:$estado" >> $ARCHIVO_USUARIO
+echo "$nombre_completo agregado correctamente"
 ;;
 
 
