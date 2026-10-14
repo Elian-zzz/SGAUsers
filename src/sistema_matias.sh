@@ -1,3 +1,4 @@
+#!/bin/bash
 # Funcion interfaz menú
 function menu {
 
@@ -45,10 +46,15 @@ read -p "Ingrese carrera: " carrera
 read -p "Ingrese horas de uso: " horas 
 read -p "Ingrese estado (ACTIVO/INACTIVO): " estado
 
-
-
+if [ -z "$usuario" ]; then # Despues agregamos un for en vez de un if
+echo "Todos los campos deben de completarse"
+else
 echo "$usuario:$nombre_completo:$edad:$carrera:$horas:$estado" >> $ARCHIVO_USUARIO
 echo "$nombre_completo agregado correctamente"
+fi
+
+
+echo "mensaje de matias para sistema"
 ;;
 
 

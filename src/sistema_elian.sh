@@ -1,3 +1,4 @@
+#!/bin/bash
 # Funcion interfaz menú
 function menu {
 
@@ -46,6 +47,7 @@ read -p "Ingrese horas de uso: " horas
 read -p "Ingrese estado (ACTIVO/INACTIVO): " estado
 
 echo "$usuario:$nombre_completo:$edad:$carrera:$horas:$estado" > $ARCHIVO_USUARIO 
+
 ;;
 
 
