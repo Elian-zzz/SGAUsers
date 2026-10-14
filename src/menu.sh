@@ -22,7 +22,18 @@ clear
 
 # Funcion interfaz menú
 menu
-
 read -p "Ingrese una opcion [1 - 8]: " op
+
+case $op in
+1)
+
+;;
+
+2)
+
+;;
+
+
+esac
 
 done

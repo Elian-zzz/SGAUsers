@@ -1,6 +1,6 @@
 mkdir -p datos reportes logs
 
-ARCHIVO=./datos/usuarios.txt
+ARCHIVO_USUARIO=./datos/usuarios.txt
 
 if [ ! -f $ARCHIVO ] 
 then
