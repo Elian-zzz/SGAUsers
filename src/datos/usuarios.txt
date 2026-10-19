@@ -1,0 +1,3 @@
+Mati:Matias Varela:19:informatica:12:ACTIVO
+aaaaaaaa:a b:20:c:600:ACTIVO
+a12345:ab cd:21:bcd:700:ACTIVO
