@@ -1,3 +1,4 @@
-Mati:Matias Varela:19:informatica:12:ACTIVO
-aaaaaaaa:a b:20:c:600:ACTIVO
-a12345:ab cd:21:bcd:700:ACTIVO
+ELIAN:ELIAN GW:19:INFORMATICA:14:INACTIVO
+otroejemplo:ejemplo cosete:25:ADMINISTRACION:23:INACTIVO
+pepe:pepe pepe:12:DEPORTE:12:ACTIVO
+test:test:1:ADMINISTRACION:23:INACTIVO

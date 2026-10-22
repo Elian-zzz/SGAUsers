@@ -140,14 +140,16 @@ Ejemplo:
 
 8. Menú principal
 
-- [ ] Listo
-  El menú deberá mantenerse activo hasta que el usuario seleccione la opción Salir.
 
-  El sistema deberá validar las opciones ingresadas
-  Por ejemplo:
-  Seleccione una opción: 9
-  Opción inválida.
-  Intente nuevamente.
+ Listo
+El menú deberá mantenerse activo hasta que el usuario seleccione la opción Salir.
+
+El sistema deberá validar las opciones ingresadas
+Por ejemplo:
+Seleccione una opción: 9
+Opción inválida.
+Intente nuevamente.
+
 
 REQUERIMIENTOS
  Requisitos  obligatorios

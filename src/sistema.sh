@@ -55,12 +55,53 @@ crear_log "Creando estructura del sistema" "LOG"
 ;;
 
 2)
+control=1
 read -p "Ingrese nombre de usuario: " usuario
 read -p "Ingrese nombre y apellido: " nombre_completo
 read -p "Ingrese edad: " edad
-read -p "Ingrese carrera: " carrera
+echo ""
+echo "__SELECCION CARRERA__"
+while [ $control -eq 1 ]; do
+echo "1) INFORMATICA"
+echo "2) ADMINISTRACION"
+echo "3) DEPORTE"
+read -p "Ingrese carrera : " carrera
+case $carrera in
+1)
+carrera="INFORMATICA"
+control=0
+;;
+2)
+carrera="ADMINISTRACION"
+control=0
+;;
+3)
+carrera="DEPORTE"
+control=0
+;;
+esac
+done
+
 read -p "Ingrese horas de uso: " horas 
-read -p "Ingrese estado (ACTIVO/INACTIVO): " estado
+
+control=1
+echo ""
+echo "__SELECCION ESTADO__"
+while [ $control -eq 1 ]; do
+echo "1) ACTIVO"
+echo "2) INACTIVO"
+read -p "Ingrese estado : " estado
+case $estado in
+1)
+estado="ACTIVO"
+control=0
+;;
+2)
+estado="INACTIVO"
+control=0
+;;
+esac
+done
 
 
 #for var in "$usuario" "$nombre_completo" "$edad" "$carrera" "$horas" "$estado";do
@@ -86,7 +127,23 @@ read -p "Ingrese usuario a buscar: " usuario
 grep -i "$usuario" $ARCHIVO_USUARIO
 siguiente_enter
 ;;
-
+5) 
+echo ""
+CANTIDAD_USUARIOS=$(wc -l "$ARCHIVO_USUARIO" | awk '{print $1}')
+CANTIDAD_USUARIOS_ACTIVOS=$(grep -wi "activo" ./datos/usuarios.txt | wc -l)
+CANTIDAD_USUARIOS_INACTIVOS=$(grep -wi "inactivo" ./datos/usuarios.txt | wc -l)
+CANTIDAD_USUARIOS_INFORMATICA=$(grep -wi "INFORMATICA" ./datos/usuarios.txt | wc -l)
+CANTIDAD_USUARIOS_DEPORTE=$(grep -wi "DEPORTE" ./datos/usuarios.txt | wc -l)
+# A terminar cantidad de usuarios de administración
+CANTIDAD_USUARIOS_ADMINISTRACION=$()
+echo "___Creando estadisticas del sistema___"
+echo "Cantidad de usuarios: $CANTIDAD_USUARIOS"
+echo "Cantidad de usuarios activos: $CANTIDAD_USUARIOS_ACTIVOS"
+echo "Cantidad de usuarios inactivos: $CANTIDAD_USUARIOS_INACTIVOS"
+echo "Cantidad de Usuarios Informatica: $CANTIDAD_USUARIOS_INFORMATICA"
+echo "Camtodad de Usuarios Deporte: $CANTIDAD_USUARIOS_DEPORTE"
+siguiente_enter
+;;
 esac
 
 done
