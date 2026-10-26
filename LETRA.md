@@ -91,7 +91,7 @@ Ejemplo:
 
 5. Generar estadísticas
 
-- [ ] Listo
+- [X] Listo
   El sistema deberá calcular y mostrar información sobre los usuarios registrados.
 
   Como mínimo deberá obtener:
@@ -103,7 +103,7 @@ Ejemplo:
 
 6. Generar reporte
 
-- [ ] Listo
+- [X] Listo
   El sistema deberá generar un archivo dentro del directorio reportes/.
 
   Por ejemplo:
@@ -140,7 +140,6 @@ Ejemplo:
 
 8. Menú principal
 
-
  Listo
 El menú deberá mantenerse activo hasta que el usuario seleccione la opción Salir.
 
@@ -149,7 +148,6 @@ Por ejemplo:
 Seleccione una opción: 9
 Opción inválida.
 Intente nuevamente.
-
 
 REQUERIMIENTOS
  Requisitos  obligatorios

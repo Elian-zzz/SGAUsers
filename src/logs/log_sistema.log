@@ -6,3 +6,21 @@ LOG[2026/10/22 17:35:50]> Listando usuarios del sistema
 LOG[2026/10/22 17:37:06]> Usuario ejemplo cosete agregado al sistema 
 LOG[2026/10/22 17:41:29]> Usuario pepe pepe agregado al sistema 
 LOG[2026/10/22 17:42:07]> Usuario test agregado al sistema 
+LOG[2026/10/26 13:25:03]> Creando estructura del sistema 
+LOG[2026/10/26 13:25:43]> Usuario aaa sss agregado al sistema 
+LOG[2026/10/26 13:25:50]> Listando usuarios del sistema 
+LOG[2026/10/26 13:58:08]> Usuario testing testing agregado al sistema 
+LOG[2026/10/26 14:02:18]> Usuario testing agregado al sistema 
+LOG[2026/10/26 14:02:33]> Usuario cosete agregado al sistema 
+LOG[2026/10/26 14:31:51]> Creando estructura del sistema 
+ERROR[2026/10/26 15:36:29]> Intento fallido de creacion de usuario 
+LOG[2026/10/26 15:36:29]> Usuario ASDASDSADASDA agregado al sistema 
+ERROR[2026/10/26 15:37:32]> Intento fallido de creacion de usuario 
+LOG[2026/10/26 15:38:11]> Listando usuarios del sistema 
+LOG[2026/10/26 15:38:34]> Buscando pepe en el sistema 
+LOG[2026/10/26 15:38:44]> Buscando asdasd en el sistema 
+LOG[2026/10/26 15:41:44]> Buscando pepe, usuario existente en el sistema 
+LOG[2026/10/26 15:42:13]> Buscando pepe, usuario existente en el sistema 
+WARN[2026/10/26 15:42:19]> Buscando asdasda, usuario no existe en el sistema 
+LOG[2026/10/26 15:43:41]> Creando estructura del sistema 
+LOG[2026/10/26 15:46:20]> Creando estadisticas del sistema 
