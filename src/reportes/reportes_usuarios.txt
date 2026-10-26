@@ -1,13 +1,13 @@
 REPORTE DEL SISTEMA
-Fecha: 10/26/26 15:24:55
-Cantidad total de usuarios: 7
-Usuarios activos: 4
+Fecha: 10/26/26 15:52:41
+Cantidad total de usuarios: 9
+Usuarios activos: 6
 Usuarios inactivos: 3
 
 Carreras: 
-Informatica: 2
+Informatica: 3
 Administracion: 4
-Deporte: 1
+Deporte: 2
 
 Usuario con mayor cantidad de horas:
 testing - 2000000 horas

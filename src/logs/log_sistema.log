@@ -24,3 +24,18 @@ LOG[2026/10/26 15:42:13]> Buscando pepe, usuario existente en el sistema
 WARN[2026/10/26 15:42:19]> Buscando asdasda, usuario no existe en el sistema 
 LOG[2026/10/26 15:43:41]> Creando estructura del sistema 
 LOG[2026/10/26 15:46:20]> Creando estadisticas del sistema 
+LOG[2026/10/26 15:48:01]> Creando estructura del sistema 
+LOG[2026/10/26 15:48:36]> Creando estructura del sistema 
+LOG[2026/10/26 15:48:56]> Listando usuarios del sistema 
+LOG[2026/10/26 15:49:24]> Usuario alvarez agregado al sistema 
+LOG[2026/10/26 15:49:34]> Listando usuarios del sistema 
+LOG[2026/10/26 15:49:46]> Buscando anubi, usuario existente en el sistema 
+LOG[2026/10/26 15:50:10]> Creando estructura del sistema 
+LOG[2026/10/26 15:50:36]> Usuario joana agregado al sistema 
+LOG[2026/10/26 15:50:42]> Buscando ana, usuario existente en el sistema 
+LOG[2026/10/26 15:51:12]> Buscando , usuario existente en el sistema 
+LOG[2026/10/26 15:51:38]> Listando usuarios del sistema 
+WARN[2026/10/26 15:51:41]> Buscando ana, usuario no existe en el sistema 
+LOG[2026/10/26 15:52:13]> Creando estadisticas del sistema 
+LOG[2026/10/26 15:52:41]> Reporte: 10/26/26 15:52:41 realizado correctamente 
+ERROR[2026/10/26 15:53:47]> Intento fallido de creacion de usuario 

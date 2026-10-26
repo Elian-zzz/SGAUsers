@@ -128,7 +128,7 @@ crear_log "Listando usuarios del sistema" "LOG"
 echo ""
 echo "____Buscar Usuarios del sistema____"
 read -p "Ingrese usuario a buscar: " usuario
-USUARIO_BUSCADO=$(grep -i "$usuario" $ARCHIVO_USUARIO)
+USUARIO_BUSCADO=$(grep -wi "$usuario" $ARCHIVO_USUARIO)
 
 if [ -z "$USUARIO_BUSCADO" ]; then
 echo "Usuario $usuario no encontrado en el sistema"
